@@ -1,9 +1,22 @@
 import { Component } from 'react';
+import Header from './Page/Header';
+import Footer from './Page/Footer';
+import MenuUtama from './Page/MenuUtama';
+import MenuTentangKami from './Page/MenuTentangKami';
+import MenuKontak from './Page/MenuKontak';
+import MenuMakanan from './Page/MenuMakanan';
 
 class App extends Component {
   render() {
     return (
-      <div></div>
+      <div>
+        <Header />
+        <MenuUtama />
+        <MenuTentangKami />
+        <MenuKontak />
+        <MenuMakanan />
+        <Footer />
+      </div>
     );
   }
 }
